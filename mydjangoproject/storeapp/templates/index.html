@@ -8,6 +8,8 @@
 
     {% for purchase in object_list %}
       <p>price: {{ purchase.price }}</p>
+    {% empty %}
+      <p> No purchases :( </p>
     {% endfor %}
 
   </body>
