@@ -1,7 +1,8 @@
 from django.conf.urls import include, url
 from django.contrib import admin
 
-from storeapp.views import IndexView
+from storeapp.views import ProductIndexView
+from storeapp.forms import PurchaseCreateForm
 
 
 urlpatterns = [
@@ -11,5 +12,7 @@ urlpatterns = [
 
     url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^$', IndexView.as_view())
+    url(r'^product/add', PurchaseCreateForm.as_view()),
+    url(r'^product/', ProductIndexView.as_view()),
+
 ]
