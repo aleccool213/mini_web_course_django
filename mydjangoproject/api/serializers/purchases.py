@@ -5,9 +5,15 @@ from storeapp.models import Purchase
 
 class PurchaseListCreateSerializer(serializers.ModelSerializer):
 
+    manager_username = serializers.SlugRelatedField(
+        read_only=True,
+        slug_field='username',
+        source='manager'
+    )
+
     class Meta:
         model = Purchase
-        fields = ['id', 'name', 'price']
+        fields = ['id', 'name', 'price', 'manager_username']
 
 
 class PurchaseUpdateSerializer(serializers.ModelSerializer):
