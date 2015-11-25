@@ -1,10 +1,12 @@
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateAPIView
+from rest_framework import permissions
 
 from api.serializers import purchases
 from storeapp.models import Purchase
 
 
 class PurchaseListCreateView(ListCreateAPIView):
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
     queryset = Purchase.objects.all()
     serializer_class = purchases.PurchaseListCreateSerializer
 
