@@ -6,4 +6,6 @@ This was demonstrated at some talks I gave at the Mobile App Development Lab at 
 
 The master branch is the last part in the tutorial where I have gone over forms.
 
-[Slides and Lecture notes](https://drive.google.com/file/d/0Bwz6jjWB6VFkYWtnNDFiVXA3cGM/view?usp=sharing)
+Part 1: [Slides and Lecture notes](https://drive.google.com/file/d/0Bwz6jjWB6VFkYWtnNDFiVXA3cGM/view?usp=sharing)
+
+Part 2: [Slides and Lecture Notes](https://drive.google.com/file/d/0Bwz6jjWB6VFka3JuQ2x0RHVKTEU/view?usp=sharing)
