@@ -1,4 +1,4 @@
 .course_app
-__pycache__
+__pychache__
 *.egg-info
 *.pyc
