@@ -1,7 +1,7 @@
 from django.conf.urls import include, url
 from django.contrib import admin
 
-from storeapp.views import ProductIndexView
+from ice_cream_store.views import ProductIndexView
 
 
 urlpatterns = [

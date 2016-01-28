@@ -36,7 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'storeapp'
+    'ice_cream_store'
 )
 
 MIDDLEWARE_CLASSES = (

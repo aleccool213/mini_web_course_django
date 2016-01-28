@@ -8,4 +8,5 @@ class Purchase(models.Model):
 
 
 class Item(models.Model):
+    name = models.CharField(max_length=100)
     purchases = models.ManyToManyField(Purchase)
