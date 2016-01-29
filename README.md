@@ -14,7 +14,9 @@
 
 ### Part 2:
 
-* 
+* api-view-example-logic
+* api-listing-puchases
+* api-view-example-logic
 
 # Web App Development For Beginners
 
