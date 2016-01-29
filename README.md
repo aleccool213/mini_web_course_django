@@ -26,6 +26,8 @@ Part 2: [Slides and Lecture Notes](https://drive.google.com/file/d/0Bwz6jjWB6VFk
 
 # Software in the Startup World 
 
+## Go follow https://github.com/jsimnz
+
 A talk I gave with CTO of ConferenceCloud, John-Alan Simmons, about Software Development in Business.
 
 [Slides and Lecture Notes](https://docs.google.com/presentation/d/1HgpfzB5wGHTAVAJH_4Gw57PvjNxf420EVOmdPVjtudA/edit?usp=sharing)
