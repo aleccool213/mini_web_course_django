@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://udemy-images.udemy.com/course/750x422/186096_6b71_14.jpg" alt="Title Image"/>
+</p>
+
+
 # Web Development For Beginners
 
 ### What is this repo?
